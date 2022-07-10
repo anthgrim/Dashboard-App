@@ -25,7 +25,7 @@ import {
 import "./App.css";
 
 function App() {
-  const activeMenu = false;
+  const activeMenu = true;
 
   return (
     <>
@@ -75,7 +75,7 @@ function App() {
                 <Route path="/ecommerce" element={<Ecommerce />} />
 
                 {/* Pages */}
-                <Route path="/orders" element="Orders" />
+                <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
 
