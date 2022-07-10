@@ -1,6 +1,6 @@
 export { default as Button } from "./Button";
-export { default as ThemeSettings } from "./ThemeSettings";
-export { default as SideBar } from "./SidebBar";
+export { default as ThemeSetting } from "./ThemeSetting";
+export { default as SideBar } from "./SideBar";
 // eslint-disable-next-line import/no-cycle
 export { default as Navbar } from "./Navbar";
 export { default as Footer } from "./Footer";
